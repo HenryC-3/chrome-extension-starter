@@ -11,7 +11,7 @@
 并使用到了以下 Package 增强开发体验
 
 - TypeScript：使用 TypeScript 规范了 background script、content script 以及 popup script 之间的通信格式，并提供了完善的类型提示。
-- CRX.js：使用 CRX.js 定义 `manifest.json`，自动创建 vite 打包入口，并为 popup 提供热更新。
+- [CRXJS Vite Plugin](https://crxjs.dev/vite-plugin)：该插件支持使用 TS 创建 `manifest.json`，并可以根据 manifest 配置自动创建打包入口。
 - lint-staged：在提交前检查代码。
 - git-cz：生成标准提交信息。
 
@@ -28,6 +28,15 @@ npm run dev
 2. 在浏览器中加载 `dist` 下生成的插件源码
 
 ## 谷歌搜索计数器
+
+<details>
+<summary>视频演示</summary>
+
+
+https://user-images.githubusercontent.com/41246463/224928158-82fbc7e8-2993-4f24-964a-80cc0d26ba27.mov
+
+
+</details>
 
 该模板中包含一个谷歌搜索计数与清除功能，用于展示开发 Chrome 插件过程中的一些常见模式，例如
 
