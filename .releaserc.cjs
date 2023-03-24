@@ -35,10 +35,11 @@ module.exports = {
 				assets: { path: zipGlob },
 			},
 		],
+		// "@semantic-release/npm", // enable this when you have to publish to npm registry
 		[
 			"@semantic-release/npm",
 			{
-				npmPublish: false,
+				npmPublish: false, // enable this when you don't have to publish to npm registry
 			},
 		],
 		[
