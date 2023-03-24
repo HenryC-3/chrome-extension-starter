@@ -25,5 +25,4 @@ export default defineManifest(async () => ({
 	action: { default_popup: "index.html" },
 	name: "Google Search Count",
 	version: `${major}.${minor}.${patch}.${label}`,
-	version_name: version,
 }));
